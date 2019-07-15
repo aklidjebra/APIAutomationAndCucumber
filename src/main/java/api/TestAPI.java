@@ -51,9 +51,9 @@ public class TestAPI {
     @Test
     public void testPutCalls() {
         String requestBody = "{\r\n" +
-                " \"name\":\"zan\",\r\n" +
-                " \"salary\":\"786\",\r\n" +
-                " \"age\":\"25\"\r\n" +
+                " \"name\":\"Akli\",\r\n" +
+                " \"salary\":\"1500\",\r\n" +
+                " \"age\":\"29\"\r\n" +
                 "}";
         Response response = RestAssured.given()
                 .contentType(ContentType.JSON)

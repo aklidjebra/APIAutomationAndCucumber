@@ -8,8 +8,8 @@ Feature: Facebook Login Validation
 
     Examples:
       | userName | Password |
-      | user001  | abcd1234 |
-      | user002  | abcd1234 |
+      | user001  | ABC123 |
+      | user002  | ABB12 |
 
   Scenario: UI Validation
     Given I browse to facebook
